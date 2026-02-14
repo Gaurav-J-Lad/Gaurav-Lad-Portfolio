@@ -1,0 +1,74 @@
+<div id="heroCarousel" class="carousel slide carousel-fade pt-5 mt-4" data-bs-ride="carousel">
+  <!-- Indicators -->
+  <div class="carousel-indicators">
+    @for (slide of slides; track $index; let i = $index) {
+      <button
+        type="button"
+        data-bs-target="#heroCarousel"
+        [attr.data-bs-slide-to]="i"
+        [class.active]="i === 0"
+      ></button>
+    }
+  </div>
+
+  <!-- Slides -->
+  <div class="carousel-inner">
+    @for (slide of slides; track $index; let i = $index) {
+      <div class="carousel-item" [class.active]="i === 0" [ngClass]="slide.imageClass">
+        <div class="slide-overlay"></div>
+
+        <div class="hero-content text-center text-white">
+          <h1 class="display-3 mb-3">
+            {{ slide.title }}
+          </h1>
+
+          <h3 class="mb-4">
+            {{ slide.subtitle }}
+          </h3>
+
+          <p class="lead fw-semibold fs-5 mb-4 px-3 px-md-5">
+            {{ slide.description }}
+          </p>
+
+          <!-- Buttons -->
+          <div class="slide-buttons">
+            <a [href]="resumeLink" class="btn btn-lg btn-primary fw-semibold" target="_blank">
+              Download Resume
+            </a>
+
+            <a [href]="githubLink" class="btn btn-lg btn-outline-theme fw-semibold" target="_blank">
+              <i class="bi bi-github"></i> GitHub
+            </a>
+
+            <a
+              [href]="linkedinLink"
+              class="btn btn-lg btn-outline-theme fw-semibold"
+              target="_blank"
+            >
+              <i class="bi bi-linkedin"></i> LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
+    }
+  </div>
+
+  <!-- Controls -->
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-bs-target="#heroCarousel"
+    data-bs-slide="prev"
+  >
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button
+    class="carousel-control-next"
+    type="button"
+    data-bs-target="#heroCarousel"
+    data-bs-slide="next"
+  >
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>

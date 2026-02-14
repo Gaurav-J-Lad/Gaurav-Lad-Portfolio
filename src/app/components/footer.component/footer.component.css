@@ -1,0 +1,17 @@
+/* Make social icons bigger and add hover effect */
+.social-icon i {
+  font-size: 1.8rem; /* Bigger icons */
+  transition:
+    transform 0.3s,
+    color 0.3s;
+}
+
+.social-icon:hover i {
+  color: #ff6b35; /* Primary Orange hover */
+  transform: scale(1.2);
+}
+
+/* Optional: make text slightly bigger */
+footer p {
+  font-size: 1.1rem;
+}

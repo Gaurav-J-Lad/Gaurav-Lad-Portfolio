@@ -1,0 +1,82 @@
+/* Projects Page */
+.projects-page {
+  background-color: #fff3e0; /* Soft Orange Background */
+  padding: 80px 0;
+}
+
+/* Section title */
+.projects-page .section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ff6b35; /* Primary Orange */
+  margin-bottom: 0.5rem;
+}
+
+.projects-page .section-subtitle {
+  font-size: 1.1rem;
+  color: #5a5a5a; /* Text Secondary */
+}
+
+/* Project card */
+.project-card {
+  border-radius: 15px;
+  overflow: hidden;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Card image */
+.project-card img {
+  object-fit: cover;
+  height: 200px;
+}
+
+/* Card title */
+.project-card .card-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #2c2c2c;
+}
+
+/* Card text */
+.project-card .card-text {
+  font-size: 1.5rem;
+  color: #5a5a5a;
+}
+
+/* Buttons */
+.project-card .btn-primary {
+  background-color: #ff6b35;
+  border-color: #ff6b35;
+  transition: all 0.3s ease;
+}
+
+.project-card .btn-primary:hover {
+  background-color: #d95325;
+  border-color: #d95325;
+}
+
+.project-card .btn-outline-primary {
+  border-color: #ff6b35;
+  color: #ff6b35;
+  transition: all 0.3s ease;
+}
+
+.project-card .btn-outline-primary:hover {
+  background-color: #ff6b35;
+  color: #fff;
+  border-color: #ff6b35;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .project-card img {
+    height: 180px;
+  }
+}

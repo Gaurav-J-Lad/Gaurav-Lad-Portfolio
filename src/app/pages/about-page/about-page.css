@@ -1,0 +1,125 @@
+/* About page wrapper */
+.about-page {
+  background-color: #fff3e0;
+  color: #2c2c2c;
+  padding: 140px 15px 70px 15px; /* More top space */
+  min-height: 100vh;
+}
+
+/* Titles */
+.section-title {
+  font-size: clamp(2.2rem, 4vw, 3rem);
+  font-weight: 700;
+  color: #d95325;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.section-subtitle {
+  font-size: clamp(1rem, 2vw, 1.3rem);
+  color: #5a5a5a;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Profile Image */
+.about-img {
+  width: 100%;
+  max-width: 340px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border: 6px solid #ff6b35;
+  transition: transform 0.3s ease;
+}
+
+.about-img:hover {
+  transform: scale(1.05);
+}
+
+/* About text */
+.about-text {
+  font-size: clamp(1.1rem, 2vw, 1.6rem);
+  line-height: 1.8;
+  color: #3c3c3c;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 1rem;
+}
+
+/* Bold important words */
+.about-text strong {
+  font-weight: 700;
+  color: #d95325;
+}
+
+/* Education title */
+.edu-title {
+  font-size: clamp(1.9rem, 3vw, 2.4rem);
+  color: #d95325;
+  font-weight: 700;
+  margin: 40px 0 25px;
+}
+
+/* Education list */
+.edu-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Bigger Education cards */
+.edu-list li {
+  background: #fff;
+  padding: 25px 30px 25px 75px;
+  border-left: 7px solid #ff6b35;
+  border-radius: 16px;
+  font-size: clamp(1.2rem, 2vw, 1.6rem);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.edu-list li:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.18);
+  border-left-color: #d95325;
+}
+
+/* Graduation icon */
+.edu-list li::before {
+  content: '🎓';
+  position: absolute;
+  left: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.8rem;
+}
+
+/* Degree text bigger */
+.edu-degree {
+  font-weight: 700;
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  color: #d95325;
+  display: block;
+}
+
+/* School/year text bigger */
+.edu-school-year {
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
+  color: #5a5a5a;
+  display: block;
+}
+
+/* Skills */
+.skill-badge {
+  background-color: #ff6b35;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 25px;
+  font-size: clamp(1rem, 1.8vw, 1.3rem);
+  transition: 0.3s ease;
+}
+
+.skill-badge:hover {
+  background-color: #d95325;
+  transform: scale(1.1);
+}

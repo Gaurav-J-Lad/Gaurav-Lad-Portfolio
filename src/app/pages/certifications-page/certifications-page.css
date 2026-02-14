@@ -1,0 +1,70 @@
+.certifications-page {
+  background-color: #fff3e0;
+  min-height: 100vh;
+}
+
+/* Title */
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ff6b35;
+}
+
+.section-subtitle {
+  color: #5a5a5a;
+}
+
+/* Card */
+.cert-card {
+  background: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.cert-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Image */
+.cert-image-wrapper {
+  height: 200px;
+  overflow: hidden;
+}
+
+.cert-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Body */
+.cert-body {
+  padding: 20px;
+}
+
+.cert-title {
+  color: #2c2c2c;
+  font-weight: bold;
+}
+
+.cert-platform {
+  color: #5a5a5a;
+  margin-bottom: 15px;
+}
+
+/* Button */
+.btn-view {
+  background-color: #ff6b35;
+  color: white;
+  border-radius: 50px;
+  padding: 8px 20px;
+  font-weight: 600;
+}
+
+.btn-view:hover {
+  background-color: #d95325;
+  color: white;
+}

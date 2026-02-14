@@ -1,0 +1,41 @@
+<nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top">
+  <div class="container-fluid">
+    <!-- Logo + Brand -->
+    <a class="navbar-brand d-flex align-items-center" routerLink="/">
+      <img src="assets/images/about-page-photo.jpg" alt="Gaurav Lad" class="profile-img me-2" />
+      <span class="brand-name fw-bold fs-3">Gaurav Lad</span>
+    </a>
+
+    <!-- Hamburger button -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="navbarNav" #navbarCollapse>
+      <ul class="navbar-nav ms-auto">
+        @for (link of navLinks; track $index) {
+          <li class="nav-item">
+            <a
+              [routerLink]="link.path"
+              routerLinkActive="active"
+              [routerLinkActiveOptions]="{ exact: link.exact }"
+              class="nav-link fs-4"
+              (click)="collapseNavbar()"
+            >
+              {{ link.label }}
+            </a>
+          </li>
+        }
+      </ul>
+    </div>
+  </div>
+</nav>

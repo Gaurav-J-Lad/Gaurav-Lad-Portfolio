@@ -1,0 +1,95 @@
+/* Carousel Full Height */
+#heroCarousel {
+  min-height: calc(100vh - 80px); /* subtract navbar height */
+}
+
+.carousel-inner,
+.carousel-item {
+  height: 100vh;
+}
+
+/* Background Image */
+.slide-image-first {
+  background-image:
+    url('/assets/images/carousel-slide1.png'), url('/assets/images/carousel-slidebg-1.jpg');
+  background-size: 760px, 2100px, 900px, 1900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.slide-image-second {
+  background-image: url('/assets/images/carousel-slide2.jpg');
+}
+
+.slide-image-third {
+  background-image: url('/assets/images/carousel-slide3.jpg');
+}
+
+.slide-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* Dark Overlay */
+.slide-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+/* Center Content */
+.hero-content {
+  position: relative;
+  z-index: 2;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Buttons */
+.slide-buttons .btn {
+  margin: 8px;
+}
+
+/* Theme Buttons */
+.btn-primary {
+  background-color: #ff6b35;
+  border-color: #ff6b35;
+}
+
+.btn-outline-theme {
+  border: 2px solid #ff6b35;
+  color: #ff6b35;
+}
+
+.btn-outline-theme:hover {
+  background-color: #ff6b35;
+  color: white;
+}
+
+/* Indicators */
+.carousel-indicators [data-bs-target] {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ff6b35;
+  opacity: 0.7;
+}
+
+.carousel-indicators .active {
+  opacity: 1;
+}
+
+/* Controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #ff6b35;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}

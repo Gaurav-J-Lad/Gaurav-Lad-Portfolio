@@ -1,0 +1,31 @@
+<section class="skills-page py-5">
+  <div class="container mb-4">
+    <!-- Skills Section -->
+    <h2 class="text-center mt-5 py-5 section-title fs-1">Skills</h2>
+
+    <div class="row g-4 justify-content-center mb-5">
+      @for (skill of skills; track $index) {
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="skill-card text-center p-4">
+            <i [class]="skill.icon + ' skill-icon'"></i>
+            <h5 class="skill-name mt-3">{{ skill.name }}</h5>
+          </div>
+        </div>
+      }
+    </div>
+
+    <!--  Tools Section -->
+    <h2 class="text-center mb-5 section-title fs-1">Tools & IDEs</h2>
+
+    <div class="row g-4 justify-content-center">
+      @for (tool of tools; track $index) {
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="skill-card text-center p-4">
+            <i [class]="tool.icon + ' skill-icon'"></i>
+            <h5 class="skill-name mt-3">{{ tool.name }}</h5>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</section>

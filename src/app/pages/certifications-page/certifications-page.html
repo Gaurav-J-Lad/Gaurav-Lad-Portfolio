@@ -1,0 +1,40 @@
+<div class="certifications-page py-5 mt-5">
+  <div class="container">
+    <!-- Title -->
+    <div class="text-center mb-5">
+      <h2 class="section-title mt-5 mb-4">Certifications</h2>
+      <p class="section-subtitle fs-4 fw-bold">
+        My Professional Certifications from Udemy and other platforms.
+      </p>
+    </div>
+
+    <!-- Certification Cards -->
+    <div class="row g-4 justify-content-center">
+      <!-- Certification Card -->
+      @for (cert of certifications; track $index) {
+        <div class="col-md-6 col-lg-4">
+          <div class="cert-card h-100">
+            <!-- Certificate Image -->
+            <div class="cert-image-wrapper">
+              <img [src]="cert.image" [alt]="cert.title" class="cert-image" />
+            </div>
+
+            <!-- Card Body -->
+            <div class="cert-body text-center">
+              <h5 class="cert-title fs-4">
+                {{ cert.title }}
+              </h5>
+
+              <p class="cert-platform fs-5">Issued by Udemy</p>
+
+              <!-- View Button -->
+              <a [href]="cert.link" target="_blank" class="btn btn-view fw-bold fs-5">
+                View Certificate
+              </a>
+            </div>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</div>
