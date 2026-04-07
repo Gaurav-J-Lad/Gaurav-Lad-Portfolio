@@ -9,29 +9,29 @@ import { Component } from '@angular/core';
   styleUrls: ['./home-page.css'],
 })
 export class HomePage {
-  //Carousel Slides Information
+  // Carousel Slides Information
   slides = [
     {
-      title: 'Welcome to My Portfolio',
-      subtitle: 'Aspiring Java Full Stack Developer | Angular & Frontend Enthusiast',
+      title: 'Java Full Stack Developer',
+      subtitle: 'Actively Seeking Opportunities',
       description:
-        'Passionate about building scalable and responsive web applications. Currently advancing my skills in Java Full Stack and Angular.',
+        'I am a passionate Java Full Stack Developer, skilled in building scalable web applications. Looking for challenging roles where I can contribute to meaningful projects and grow as a professional.',
       imageClass: 'slide-image-first',
     },
 
     {
-      title: 'Skilled Angular & Frontend Development',
-      subtitle: 'Dynamic Web Applications & Responsive Design',
+      title: 'Skilled Frontend Developer',
+      subtitle: 'Angular | Bootstrap | Responsive Design',
       description:
-        'Skilled in Angular, Bootstrap and modern frontend frameworks. Building clean, efficient and responsive applications.',
+        'Experienced in creating dynamic, interactive, and responsive web interfaces. Proficient in Angular, Bootstrap, HTML5, CSS3, and modern frontend frameworks.',
       imageClass: 'slide-image-second',
     },
 
     {
-      title: 'Creative Frontend Developer',
-      subtitle: 'UI/UX Design & Interactive Features',
+      title: 'Backend Expertise',
+      subtitle: 'Java | Spring Boot | Hibernate | Databases',
       description:
-        'Designing elegant interfaces and interactive user experiences that delight users.',
+        'Strong backend development skills using Java, Spring Boot, Hibernate, Spring Data JPA, REST APIs, and databases like MySQL, PostgreSQL, and MongoDB. Focused on building robust and efficient server-side solutions.',
       imageClass: 'slide-image-third',
     },
   ];

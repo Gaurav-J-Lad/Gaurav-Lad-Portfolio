@@ -10,11 +10,11 @@ import { Component } from '@angular/core';
 export class AboutPage {
   // About paragraphs
   aboutTexts: string[] = [
-    `Hi! <b>I'm Gaurav Lad</b>, currently learning <b>Full Stack Java Development</b> and building expertise in frontend technologies like <b>Angular, Bootstrap, and responsive web design.</b> I enjoy creating interactive, user-friendly applications and continuously exploring modern tools and frameworks.`,
+    `Hi! <b>I'm Gaurav Lad</b>, a passionate <b>Full Stack Java Developer</b> with expertise in both backend and frontend technologies. I enjoy building scalable, interactive web applications using <b>Java, Spring Boot, Hibernate, Spring Data JPA</b> on the backend and <b>Angular, Bootstrap, and responsive web design</b> on the frontend.`,
 
-    `My goal is to combine my backend knowledge in Java with frontend skills to develop complete, scalable web applications. I am passionate about coding, problem-solving, and contributing to meaningful projects while improving my skillset.`,
+    `My goal is to develop complete web solutions, combining backend robustness with frontend usability. I am skilled in <b>REST APIs, SQL & NoSQL databases (MySQL, PostgreSQL, MongoDB), Git & GitHub</b>, and modern development tools, enabling me to contribute effectively to both frontend, backend, and full-stack projects.`,
 
-    `I am actively searching for opportunities where I can apply my skills in <b>Angular and frontend development</b>, while growing as a <b>Full Stack Java Developer</b>.`,
+    `I am actively seeking opportunities for <b>Backend, Frontend, or Full Stack Developer</b> roles where I can apply my skills in Java-based technologies and modern web frameworks while continuing to grow as a versatile developer.`,
   ];
 
   // Education list
@@ -45,20 +45,26 @@ export class AboutPage {
     },
   ];
 
-  // Skills list
   skills = [
-    'HTML',
-    'CSS',
-    'Javascript',
-    'Jquery',
+    'HTML5',
+    'CSS3',
+    'JavaScript & TypeScript',
+    'jQuery',
     'Bootstrap',
     'Angular',
-    'MySQL & PostgreSQL',
+    'Java (OOP, Core & Advanced)',
+    'Spring Boot',
+    'Hibernate',
+    'Spring Data JPA',
+    'REST APIs',
+    'SQL & PostgreSQL',
     'MongoDB',
-    'Git & Github',
+    'Git & GitHub',
     'Firebase',
-    'Full Stack Java',
+    'Full Stack Java Development',
     'Frontend Development',
-    'Responsive Design',
+    'Responsive & Mobile-Friendly Design',
+    'Maven & Docker',
+    'Problem Solving & Debugging',
   ];
 }
