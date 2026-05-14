@@ -18,6 +18,34 @@ export class ProjectsPage {
       liveLink: 'https://gaurav-lad-portfolio.netlify.app',
       githubLink: 'https://github.com/Gaurav-J-Lad/Gaurav-Lad-Portfolio',
     },
+
+    {
+      title: 'Student Management System',
+      description:
+        'A full-stack Student Management System built using Angular (frontend) and Spring Boot (backend) with PostgreSQL database. It provides a responsive UI for managing student records with full CRUD operations and seamless REST API integration.',
+      image: 'assets/projects/student-management-app-pic.JPG',
+      liveLink: 'https://gaurav-lad-student-management-app.onrender.com',
+      githubLink: 'https://github.com/Gaurav-J-Lad/Student-Management-App-Frontend',
+    },
+
+    {
+      title: 'Employee HR Management System',
+      description:
+        'A full-stack Employee HR Management System built using Angular (frontend) and Spring Boot (backend) with PostgreSQL database. It provides a responsive UI for managing employees with department, position, and experience handling using REST API integration.',
+      image: 'assets/projects/employee-hr-management-app-pic.JPG',
+      liveLink: 'https://gaurav-lad-employee-hr-management-app.onrender.com',
+      githubLink: 'https://github.com/Gaurav-J-Lad/Employee-HR-Management-App-Frontend',
+    },
+
+    {
+      title: 'Todo Task Manager App',
+      description:
+        'A full-stack Todo Task Manager application built using Angular (frontend) and Spring Boot (backend) with PostgreSQL database. It provides a responsive UI for users to register, login, and manage tasks efficiently with full CRUD operations and seamless REST API integration.',
+      image: 'assets/projects/todo-task-manager-app-pic.JPG',
+      liveLink: 'https://gaurav-lad-todo-task-manager-app.onrender.com',
+      githubLink: 'https://github.com/Gaurav-J-Lad/Todo-Task-Manager-App-Frontend',
+    },
+
     {
       title: 'MovieLand | Angular Movie Landing App (TMDB API)',
       description:
