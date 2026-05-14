@@ -19,7 +19,7 @@ export class ProjectsPage {
       githubLink: 'https://github.com/Gaurav-J-Lad/Gaurav-Lad-Portfolio',
     },
     {
-      title: 'Student Management System',
+      title: 'Student Management System | Full Stack (Angular + SpringBoot)',
       description:
         'A full-stack Student Management System built using Angular (frontend) and Spring Boot (backend) with PostgreSQL database. It provides a responsive UI for managing student records with full CRUD operations and seamless REST API integration.',
       image: 'assets/projects/student-management-app-pic.JPG',
@@ -27,7 +27,7 @@ export class ProjectsPage {
       githubLink: 'https://github.com/Gaurav-J-Lad/Student-Management-App-Frontend',
     },
     {
-      title: 'Employee HR Management System',
+      title: 'Employee HR Management System | Full Stack (Angular + SpringBoot)',
       description:
         'A full-stack Employee HR Management System built using Angular (frontend) and Spring Boot (backend) with PostgreSQL database. It provides a responsive UI for managing employees with department, position, and experience handling using REST API integration.',
       image: 'assets/projects/employee-hr-management-app-pic.JPG',
@@ -35,7 +35,7 @@ export class ProjectsPage {
       githubLink: 'https://github.com/Gaurav-J-Lad/Employee-HR-Management-App-Frontend',
     },
     {
-      title: 'Todo Task Manager App',
+      title: 'Todo Task Manager App | Full Stack (Angular + SpringBoot)',
       description:
         'A full-stack Todo Task Manager application built using Angular (frontend) and Spring Boot (backend) with PostgreSQL database. It provides a responsive UI for users to register, login, and manage tasks efficiently with full CRUD operations and seamless REST API integration.',
       image: 'assets/projects/todo-task-manager-app-pic.JPG',
