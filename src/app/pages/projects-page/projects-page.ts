@@ -18,7 +18,6 @@ export class ProjectsPage {
       liveLink: 'https://gaurav-lad-portfolio.netlify.app',
       githubLink: 'https://github.com/Gaurav-J-Lad/Gaurav-Lad-Portfolio',
     },
-
     {
       title: 'Student Management System',
       description:
@@ -27,7 +26,6 @@ export class ProjectsPage {
       liveLink: 'https://gaurav-lad-student-management-app.onrender.com',
       githubLink: 'https://github.com/Gaurav-J-Lad/Student-Management-App-Frontend',
     },
-
     {
       title: 'Employee HR Management System',
       description:
@@ -36,7 +34,6 @@ export class ProjectsPage {
       liveLink: 'https://gaurav-lad-employee-hr-management-app.onrender.com',
       githubLink: 'https://github.com/Gaurav-J-Lad/Employee-HR-Management-App-Frontend',
     },
-
     {
       title: 'Todo Task Manager App',
       description:
@@ -45,7 +42,6 @@ export class ProjectsPage {
       liveLink: 'https://gaurav-lad-todo-task-manager-app.onrender.com',
       githubLink: 'https://github.com/Gaurav-J-Lad/Todo-Task-Manager-App-Frontend',
     },
-
     {
       title: 'MovieLand | Angular Movie Landing App (TMDB API)',
       description:
